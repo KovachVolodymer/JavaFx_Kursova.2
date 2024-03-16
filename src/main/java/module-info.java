@@ -13,4 +13,6 @@ module org.example.project3 {
 
     opens org.example.project3 to javafx.fxml;
     exports org.example.project3;
+    exports org.example.project3.controller;
+    opens org.example.project3.controller to javafx.fxml;
 }

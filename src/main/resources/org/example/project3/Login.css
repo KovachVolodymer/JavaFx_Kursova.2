@@ -1,0 +1,38 @@
+.welcome_label {
+    -fx-font-size: 20;/*розмір шрифту*/
+    -fx-font-weight: bold;/*жирний шрифт*/
+    -fx-text-fill: linear-gradient(to bottom right, #007b86, #008b8f);/*колір тексту*/
+}
+
+.left_pane {
+    -fx-background-color: linear-gradient(to bottom right, #007b86, #008b8f);/*колір фону*/
+}
+
+.right_pane {
+    -fx-background-color: #ffffff;/*колір фону*/
+}
+
+.button_login{
+    -fx-background-color: linear-gradient(to bottom right, #007b86, #008b8f);
+    -fx-text-fill: #ffffff;/*колір тексту*/
+    -fx-font-weight: bold;/*жирний шрифт*/
+    -fx-cursor: hand;/*зміна курсору*/
+}
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom right, #008b8f, #007b86);/*зміна кольору при наведенні*/
+}
+.field_set{
+    -fx-border-color: linear-gradient(to bottom right, #007b86, #008b8f);
+    -fx-border-width: 2; /*ширина рамки*/
+    -fx-border-radius: 5;  /*радіус*/
+    -fx-padding: 5;    /*відступи*/
+    -fx-background-color: #ffffff; /*колір фону*/
+}
+
+
+
+
+
+
+
+

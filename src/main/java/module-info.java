@@ -10,6 +10,8 @@ module org.example.project3 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires org.mongodb.driver.core;
+    requires org.mongodb.driver.sync.client;
 
     opens org.example.project3 to javafx.fxml;
     exports org.example.project3;

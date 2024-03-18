@@ -11,27 +11,29 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="500.0" prefWidth="600.0" fx:controller="org.example.project3.controller.LoginController"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <center>
       <AnchorPane prefHeight="527.0" prefWidth="297.0" styleClass="left_pane" stylesheets="@Login.css" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fitHeight="140.0" fitWidth="150.0" layoutX="80.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="177.0" fitWidth="157.0" layoutX="71.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../icon/icons8-css-200.png" />
                </image>
             </ImageView>
-            <Label layoutX="55.0" layoutY="204.0" text="Курс для вивчення CSS" textFill="WHITE">
+            <Label layoutX="13.0" layoutY="232.0" text="Курс для вивчення CSS" textFill="WHITE">
                <font>
-                  <Font name="System Bold" size="18.0" />
+                  <Font name="System Bold" size="24.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
    </center>
    <right>
-      <AnchorPane prefHeight="200.0" prefWidth="300.0" styleClass="right_pane" stylesheets="@Login.css" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="300.0" styleClass="right_pane" stylesheets="@Login.css" BorderPane.alignment="CENTER" >
          <children>
-            <Label layoutX="50.0" layoutY="145.0" styleClass="welcome_label" text="Login">
+            <Label layoutX="50.0" layoutY="145.0" styleClass="welcome_label" text="Sign in">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
@@ -49,8 +51,8 @@
                   <Font size="11.0" />
                </font>
             </CheckBox>
-            <Button layoutX="100.0" layoutY="354.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" styleClass="button_login" text="Увійти" />
-            <Label layoutX="193.0" layoutY="301.0" text="Register?" underline="true">
+            <Button layoutX="100.0" layoutY="354.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" styleClass="button_login" text="Login" />
+            <Label layoutX="123.0" layoutY="395.0" text="Sign up" underline="true">
                <font>
                   <Font size="14.0" />
                </font>

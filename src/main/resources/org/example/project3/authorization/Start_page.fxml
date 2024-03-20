@@ -19,7 +19,7 @@
          <children>
             <ImageView fitHeight="177.0" fitWidth="157.0" layoutX="71.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../icon/icons8-css-200.png" />
+                  <Image url="@../../../../icon/icons8-css-200.png" />
                </image>
             </ImageView>
             <Label layoutX="13.0" layoutY="273.0" text="Курс для вивчення CSS" textFill="WHITE">
@@ -33,29 +33,32 @@
    <right>
       <StackPane prefHeight="500.0" prefWidth="300.0" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane fx:id="signup_page" prefHeight="600.0" prefWidth="300.0" styleClass="right_pane" stylesheets="@Start_page.css">
+            <AnchorPane fx:id="signup_page" prefHeight="600.0" prefWidth="300.0" styleClass="right_pane" stylesheets="@Start_page.css" visible="false">
                <children>
                   <Label layoutX="50.0" layoutY="145.0" styleClass="welcome_label" text="Sign up">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </Label>
-                  <TextField layoutX="50.0" layoutY="201.0" prefHeight="25.0" prefWidth="200.0" promptText="Username" styleClass="field_set">
+                  <TextField fx:id="registerName_field" layoutX="50.0" layoutY="201.0" prefHeight="25.0" prefWidth="200.0" promptText="Username" styleClass="field_set">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </TextField>
-                  <PasswordField layoutX="50.0" layoutY="250.0" prefHeight="25.0" prefWidth="200.0" promptText="Password" styleClass="field_set">
+                  <PasswordField fx:id="registerPassword_field" layoutX="50.0" layoutY="250.0" prefHeight="25.0" prefWidth="200.0" promptText="Password" styleClass="field_set">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </PasswordField>
-                  <PasswordField layoutX="50.0" layoutY="297.0" prefHeight="25.0" prefWidth="200.0" promptText="СonfirmPassword" styleClass="field_set">
+                  <PasswordField fx:id="registerСonfirm_Password_field" layoutX="50.0" layoutY="297.0" prefHeight="25.0" prefWidth="200.0" promptText="Сonfirm Password" styleClass="field_set">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </PasswordField>
-                  <Button layoutX="100.0" layoutY="354.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" styleClass="button_login" text="Register" />
+                  <Button layoutX="100.0" layoutY="354.0" mnemonicParsing="false" onAction="#register" prefHeight="30.0" prefWidth="100.0" styleClass="button_login" text="Register">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
                   <Label layoutX="123.0" layoutY="395.0" onMouseClicked="#sign_in_clicked" text="Sign in" underline="true">
                      <font>
                         <Font size="14.0" />
@@ -66,24 +69,29 @@
                   </Label>
                </children>
             </AnchorPane>
-            <AnchorPane fx:id="signin_page" prefHeight="600.0" prefWidth="300.0" styleClass="right_pane" stylesheets="@Start_page.css" visible="false">
+            <AnchorPane fx:id="signin_page" prefHeight="600.0" prefWidth="300.0" styleClass="right_pane" stylesheets="@Start_page.css">
                <children>
                   <Label layoutX="50.0" layoutY="145.0" styleClass="welcome_label" text="Sign in">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </Label>
-                  <TextField layoutX="50.0" layoutY="201.0" prefHeight="25.0" prefWidth="200.0" promptText="Username" styleClass="field_set">
+                  <TextField fx:id="loginName_field" layoutX="50.0" layoutY="201.0" prefHeight="25.0" prefWidth="200.0" promptText="Username" styleClass="field_set">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </TextField>
-                  <PasswordField layoutX="50.0" layoutY="250.0" prefHeight="25.0" prefWidth="200.0" promptText="Password" styleClass="field_set">
+                  <TextField fx:id="login_ShowPassword" layoutX="50.0" layoutY="250.0" prefHeight="25.0" prefWidth="200.0" promptText="Password" styleClass="field_set" visible="false">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="loginPassword_field" layoutX="50.0" layoutY="250.0" prefHeight="25.0" prefWidth="200.0" promptText="Password" styleClass="field_set">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </PasswordField>
-                  <CheckBox layoutX="52.0" layoutY="303.0" mnemonicParsing="false" text="Show Password">
+                  <CheckBox fx:id="login_selectShowPassword" layoutX="52.0" layoutY="303.0" mnemonicParsing="false" onAction="#showPassword" text="Show Password">
                      <font>
                         <Font size="11.0" />
                      </font>
@@ -91,7 +99,10 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </CheckBox>
-                  <Button layoutX="100.0" layoutY="354.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" styleClass="button_login" text="Login" />
+                  <Button layoutX="100.0" layoutY="354.0" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="100.0" styleClass="button_login" text="Login">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
                   <Label layoutX="123.0" layoutY="395.0" onMouseClicked="#sign_up_clicked" text="Sign up" underline="true">
                      <font>
                         <Font size="14.0" />

@@ -3,7 +3,7 @@ package org.example.project3.mongo;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.ConnectionString;
+import org.bson.Document;
 
 public class MongoDBConnector {
     private MongoDatabase database;
@@ -21,5 +21,9 @@ public class MongoDBConnector {
 
     public MongoDatabase getDatabase() {
         return database;
+    }
+
+    public boolean existsByName(String name) {
+        return database.getCollection("user").find(new Document("login", name)).first() != null;
     }
 }

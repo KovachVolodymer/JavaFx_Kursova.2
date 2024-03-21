@@ -13,7 +13,7 @@ public class MainApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("Start_page.fxml")));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/org/example/project3/authorization/Start_page.fxml")));
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();

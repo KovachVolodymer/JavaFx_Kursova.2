@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" stylesheets="@HomePage.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="300.0" styleClass="anchor_pane">
+         <children>
+            <Label layoutX="82.0" layoutY="223.0" styleClass="welcome_label" text="Welcome!" />
+            <Label layoutX="102.0" layoutY="326.0" text="name" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="308.0" layoutY="265.0" prefHeight="503.0" prefWidth="877.0">
+         <children>
+            <AnchorPane layoutX="600.0" layoutY="36.0" prefHeight="200.0" prefWidth="250.0" styleClass="lesson_panel4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane layoutX="325.0" layoutY="37.0" prefHeight="200.0" prefWidth="250.0" styleClass="lesson_panel2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane layoutX="50.0" layoutY="265.0" prefHeight="200.0" prefWidth="250.0" styleClass="lesson_panel3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane layoutX="598.0" layoutY="269.0" prefHeight="200.0" prefWidth="250.0" styleClass="lesson_panel6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane layoutX="47.0" layoutY="41.0" prefHeight="200.0" prefWidth="250.0" styleClass="lesson_panel1">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+            <AnchorPane layoutX="325.0" layoutY="266.0" prefHeight="200.0" prefWidth="250.0" styleClass="lesson_panel5">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

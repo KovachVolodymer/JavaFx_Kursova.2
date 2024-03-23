@@ -1,0 +1,71 @@
+.anchor_pane {
+    -fx-background-color: linear-gradient(to bottom right, #008b8f, #007b86);
+}
+.welcome_label {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+.label_title {
+    -fx-font-size: 30;
+    -fx-text-fill: #000000;
+}
+.lesson_panel1 {
+    -fx-background-color: linear-gradient(to bottom right, #b2f2e0, #80eac2);
+    -fx-border-color: linear-gradient(to bottom right, #008f7a, #007a66);
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-padding: 5;
+    -fx-background-radius: 15;
+}
+.lesson_panel2 {
+    -fx-background-color: linear-gradient(to bottom right, #80eac2, #4de1a1);
+    -fx-border-color: linear-gradient(to bottom right, #008f7a, #007a66);
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-padding: 5;
+    -fx-background-radius: 15;
+}
+
+.lesson_panel3 {
+    -fx-background-color: linear-gradient(to bottom right, #4de1a1, #008f7a);
+    -fx-border-color: linear-gradient(to bottom right, #008f7a, #007a66);
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-padding: 5;
+    -fx-background-radius: 15;
+}
+.lesson_panel4 {
+    -fx-background-color: linear-gradient(to bottom right, #3de1a1, #2d8f7a);
+    -fx-border-color: linear-gradient(to bottom right, #006644, #004422);
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-padding: 5;
+    -fx-background-radius: 15;
+}
+
+.lesson_panel5 {
+    -fx-background-color: linear-gradient(to bottom right, #2d8f7a, #1d6a55);
+    -fx-border-color: linear-gradient(to bottom right, #006644, #004422);
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-padding: 5;
+    -fx-background-radius: 15;
+}
+
+.lesson_panel6 {
+    -fx-background-color: linear-gradient(to bottom right, #2e7b60, #1d6a55);
+    -fx-border-color: linear-gradient(to bottom right, #2e7b60, #1d6a55);
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-padding: 5;
+    -fx-background-radius: 15;
+}
+
+.field_set{
+    -fx-border-color: linear-gradient(to bottom right, #008b8f, #007b86);
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+    -fx-background-color: #ffffff;
+}

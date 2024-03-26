@@ -61,6 +61,31 @@
     -fx-padding: 5;
     -fx-background-radius: 15;
 }
+.lesson_panel1:hover {
+   //при наведенні рамка буде товщею і змінить колір на зелений
+    -fx-border-color: linear-gradient(to bottom right, #008f7a, #007a66);
+    -fx-border-width: 3;
+}
+.lesson_panel2:hover {
+    -fx-border-color: linear-gradient(to bottom right, #008f7a, #007a66);
+    -fx-border-width: 3;
+}
+.lesson_panel3:hover {
+    -fx-border-color: linear-gradient(to bottom right, #008f7a, #007a66);
+    -fx-border-width: 3;
+}
+.lesson_panel4:hover {
+    -fx-border-color: linear-gradient(to bottom right, #006644, #004422);
+    -fx-border-width: 3;
+}
+.lesson_panel5:hover {
+    -fx-border-color: linear-gradient(to bottom right, #006644, #004422);
+    -fx-border-width: 3;
+}
+.lesson_panel6:hover {
+    -fx-border-color: linear-gradient(to bottom right, #006644, #004422);
+    -fx-border-width: 3;
+}
 
 .field_set{
     -fx-border-color: linear-gradient(to bottom right, #008b8f, #007b86);
@@ -68,4 +93,29 @@
     -fx-border-radius: 5;
     -fx-padding: 5;
     -fx-background-color: #ffffff;
+}
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: linear-gradient(to bottom right, #008b8f, #007b86);
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+.button_logout {
+    -fx-background-color: linear-gradient(to bottom right, #008b8f, #007b86);
+    -fx-border-color: linear-gradient(to bottom right, #008b8f, #007b86);
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+    -fx-text-fill: #fff;
+    -fx-font-size: 18;
+}
+.button_logout:hover {
+    -fx-background-color: linear-gradient(to bottom right, #007b86, #006b76);
+    -fx-border-color: linear-gradient(to bottom right, #007b86, #006b76);
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18;
 }
